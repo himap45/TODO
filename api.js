@@ -21,7 +21,7 @@ document.getElementById('form1').addEventListener('submit', function(evt)
    evt.preventDefault();
    
    let ass=check();
-   if(ass){window.location.href="./home.html";}
+   if(ass){window.location.href="home.html";}
    
  });
 function check()
